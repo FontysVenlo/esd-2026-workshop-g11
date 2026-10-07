@@ -1,0 +1,17 @@
+[project]
+name = "esd-2026-workshop-g11"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Bo Bredenbrücher", email = "justusbo@icloud.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+esd-2026-workshop-g11 = "esd_2026_workshop_g11:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
