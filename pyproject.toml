@@ -7,7 +7,9 @@ authors = [
     { name = "Bo Bredenbrücher", email = "justusbo@icloud.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "mcp[cli]>=2.3.0",
+]
 
 [project.scripts]
 esd-2026-workshop-g11 = "esd_2026_workshop_g11:main"
